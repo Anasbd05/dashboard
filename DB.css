@@ -1,0 +1,138 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    font-family: "IBM Plex Serif";
+    text-transform: capitalize;
+
+}
+body{
+    background-color: rgb(253, 214, 214);
+    display: flex;
+}
+.prf-ig{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid lightblue;
+    flex-shrink: 0;
+}
+.prf-ig img{
+    height: 100%;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 30px;}
+.profile h2{
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+
+.menu{
+    background-color: rgba(61, 13, 13, 0.774);
+    width: 55px;
+    height: 97vh;
+    padding: 7px;
+    overflow: hidden;
+    transition: 5ms;
+}
+.menu:hover{
+    width: 260px;
+}
+ul{
+    list-style: none;
+    position: relative;
+    height: 100%;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    margin: 10px 0px;
+    padding: 10px ;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    border-radius: 10px;
+    transition: 5ms;
+}
+ul li a:hover,.database .box:hover {
+    background-color:rgb(221, 115, 115) ;
+
+}
+.log-out{
+    position: absolute;
+    bottom: -2%;
+    width: 100%;
+
+}
+.log-out a{
+    background-color: rgb(242, 5, 5);
+    font-size: 16px;
+}
+ul li a{
+    font-size: 25px;
+}
+.content{
+    width: 100%;
+    margin: 2px;
+}
+.tittle-info{
+    background-color:  rgb(156, 80, 80);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+    border-radius: 8px;
+}
+.database{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.database .box{
+    background-color: rgb(61, 13, 13, 0.774);
+    height: 130px;
+    flex-basis: 150px;
+    border-radius: 8px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.database .box i{
+    font-size: 40px;
+}
+.data p {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.database .box .data span{
+    font-size: 30px;
+}
+table{
+    width: 100%;
+    text-align: center;
+    border-spacing: 5px;
+}
+td,th{
+    background-color:rgba(79, 42, 42, 0.774);
+    height: 50px;
+    border-radius: 8px;
+}
+th{
+    background-color: rgb(104, 0, 0);
+}
+.cnt,.price{
+    padding: 7px;
+    border-radius: 5px;
+}
+.price{
+    background-color: rgb(43, 201, 43);
+}
